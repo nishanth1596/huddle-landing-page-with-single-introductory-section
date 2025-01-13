@@ -1,0 +1,76 @@
+.img {
+  margin-top: 4.36rem;
+  max-width: 18.5rem;
+}
+
+.textbox {
+  margin-top: 3.75rem;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.textbox h1 {
+  font-weight: 600;
+  font-size: 1.5;
+  line-height: 2.25rem;
+}
+
+.textbox p {
+  margin-top: 1rem;
+  font-family: var(--ff-open-sans);
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.textbox button {
+  margin-top: 1.5rem;
+
+  padding: 0.71rem 4.7rem 0.67rem 4.74rem;
+  border-radius: 15rem;
+  border: none;
+  box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.269);
+
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0;
+  color: var(--c-684bb1);
+}
+
+.textbox button:hover {
+  cursor: pointer;
+  background-color: var(--c-e880e8);
+  color: var(--c-fff);
+}
+
+@media (min-width: 90rem) {
+  .heroSection {
+    display: flex;
+    gap: 3.69rem;
+  }
+
+  .img {
+    margin-top: 6.5rem;
+    max-width: 43.5rem;
+  }
+
+  .textbox {
+    margin-top: 8.5rem;
+    text-align: left;
+  }
+
+  .textbox h1 {
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+
+  .textbox p {
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.69rem;
+  }
+
+  .textbox button {
+    padding: 0.81rem 3.94rem 1rem 4rem;
+  }
+}

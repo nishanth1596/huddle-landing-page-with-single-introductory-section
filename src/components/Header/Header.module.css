@@ -1,0 +1,11 @@
+.img {
+  width: 7.5rem;
+  margin-top: 2.39rem;
+}
+
+@media (min-width: 90rem) {
+  .img {
+    margin-top: 4rem;
+    width: 12.5rem;
+  }
+}

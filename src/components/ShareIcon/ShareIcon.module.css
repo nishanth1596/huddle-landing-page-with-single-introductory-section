@@ -1,0 +1,21 @@
+.shareBtns {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.66rem;
+}
+
+.shareBtns a:hover {
+  cursor: pointer;
+  color: var(--c-ff52c1);
+  /* border: 1px solid var(--c-ff52c1); */
+  box-shadow: inset 0 0 0 5px var(--c-ff52c1);
+  border-radius: 100%;
+}
+
+@media (min-width: 90rem) {
+  .shareBtns {
+    margin-top: 1.69rem;
+    justify-content: flex-end;
+  }
+}
