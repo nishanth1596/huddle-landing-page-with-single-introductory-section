@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [Solution URL](https://github.com/nishanth1596/huddle-landing-page-with-single-introductory-section)
+- Live Site URL: [Live site URL](https://nishanth-huddle-landing-page-intro.netlify.app/)
 
 ### Features
 
